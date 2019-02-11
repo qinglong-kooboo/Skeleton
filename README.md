@@ -1,4 +1,4 @@
-# bak
+# Skeleton
 
 > A Vue.js project
 
