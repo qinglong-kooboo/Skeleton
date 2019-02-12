@@ -53,7 +53,21 @@ const devWebpackConfig = merge(baseWebpackConfig, {
     // inject skeleton content(DOM & CSS) into HTML
     new SkeletonWebpackPlugin({
       webpackConfig: require('./webpack.skeleton.conf'),
-      quiet: true
+      quiet: true,
+      minimize: true,
+      router: {
+        mode: 'hash',
+        routes: [
+          {
+            path: '/index',
+            skeletonId: 'Skeleton1'
+          },
+          {
+            path: '/test',
+            skeletonId: 'Skeleton2'
+          },
+        ]
+      }
     })
   ]
 })

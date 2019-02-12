@@ -5,7 +5,6 @@ import FastClick from 'fastclick'
 import VueRouter from 'vue-router'
 import router from './router/index'
 import App from './App'
-import store from './vuex/store'
 import './assets/css/base.css'
 import httpError from './assets/js/httpError'
 import Utils from './assets/js/Utils'
@@ -46,6 +45,5 @@ router.afterEach((to, from, next) => {
 
 new Vue({
   router,
-  store,
   render: h => h(App)
 }).$mount('#app')
