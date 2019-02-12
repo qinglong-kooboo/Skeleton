@@ -1,6 +1,6 @@
 # Skeleton
 
-a demo to show how to add skeleton screens to a web page
+:sparkles: :sparkles: a demo to show how to add skeleton screens to a web page
 
 ## Motivation/Background
 Skeleton screens are blank pages that are progressively populated with content, such as text and images, as they become available (i.e. when network latency allows). Grey or neutral-toned filled shapes, commonly called placeholders, meet the user instantly upon user interaction with calls to action or links. The placeholders (the so-called “bones” of the skeleton) are then replaced with the actual site content, and the illusion is complete. That’s what skeleton screens do: create the illusion of an instant transition.
@@ -25,4 +25,5 @@ router: {
             skeletonId: 'Skeleton2'
           },
         ]
-      }
+      }  
+:tada: :tada: :tada:
